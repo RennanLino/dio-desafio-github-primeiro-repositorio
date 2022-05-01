@@ -1,0 +1,6 @@
+nome = input('Nome Completo: ').strip()
+print(nome.upper())
+print(nome.lower())
+dividido = nome.split()
+print('Seu nome completo possui {} letras' .format(len(''.join(dividido))))
+print('Seu primeiro nome possui {} letras' .format(len(dividido[0])))
